@@ -14,11 +14,12 @@ git clone <repository-url>
 
 git clone https://github.com/username/project.
 
----
+--------------------------------------------------
 
 🌿 What is a Git Branch?
 
 A Git branch is like a separate line of development in your project.
+
 It lets you work on features, fixes, or experiments without affecting the main code.
 
 📦 Why use branches?
@@ -31,32 +32,19 @@ To experiment safely.
 
 🛠️ Common Git Branch Commands:
 
-👉 Check current branch:
+👉 Check current branch: ---> git branch
 
-git branch
+👉 Create a new branch: --->git branch my-feature
 
-👉 Create a new branch:
+👉 Switch to a branch: --->git checkout my-feature
 
-git branch my-feature
-
-👉 Switch to a branch:
-
-git checkout my-feature
-
-👉 Create and switch in one command:
-
-git checkout -b my-feature
+👉 Create and switch in one command: -->git checkout -b my-feature
 
 👉 Merge a branch into main:
-
 First, switch to main:
 
-git checkout main
+-->git checkout main
 
-Then merge:
+Then merge: ---> git merge my-feature
 
-git merge my-feature
-
-Delete a branch (after merge):
-
-git branch -d my-feature
+Delete a branch (after merge): --->git branch -d my-feature
