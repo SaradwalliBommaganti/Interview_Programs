@@ -1,0 +1,5 @@
+package com.array.programs;
+
+public class SumElementsInArray {
+
+}
