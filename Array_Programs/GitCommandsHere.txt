@@ -1,0 +1,111 @@
+
+🔹 What is git clone?
+
+git clone is a command used to make a copy of a Git repository from a remote source (like GitHub) to your local computer.
+
+🧩 Think of it like this:
+
+Imagine a project (code, files, etc.) is stored on GitHub — when you run git clone, you're downloading that entire project (along with its Git history) to your own machine so you can work on it.
+
+🛠️ Basic Syntax:
+
+git clone <repository-url>
+
+📌 Example:
+
+git clone https://github.com/username/project.
+
+--------------------------------------------------
+
+🌿 What is a Git Branch?
+
+A Git branch is like a separate line of development in your project.
+
+It lets you work on features, fixes, or experiments without affecting the main code.
+
+📦 Why use branches?
+
+To work on new features without breaking the main code.
+
+To fix bugs separately.
+
+To experiment safely.
+
+🛠️ Common Git Branch Commands:
+
+👉 Check current branch: ---> git branch
+
+👉 Create a new branch: --->git branch my-feature
+
+👉 Switch to a branch: --->git checkout my-feature
+
+👉 Create and switch in one command: -->git checkout -b my-feature
+
+👉 Merge a branch into main:
+First, switch to main:
+
+-->git checkout main
+
+Then merge: ---> git merge my-feature
+
+Delete a branch (after merge): --->git branch -d my-feature
+-----------------------------------------------------------------------------
+
+📌 Git Workflow: git add, git commit, and git push
+
+When working with Git, you typically follow this 3-step process to save and upload your 
+
+changes to a remote repository like GitHub.
+
+git add
+
+👉 git add <filename>      # Add a specific file
+
+
+👉 git add .               # Add all modified and new files in the current directory
+
+-> This command adds your changes to the staging area.
+
+-> It tells Git what you want to commit.
+
+-> Nothing is saved permanently yet — it’s just marked for the next commit.
+
+--------------------------------------------------------------------------------------
+
+git commit
+
+👉 git commit -m "Your commit message"
+
+-> This saves a snapshot of the staged changes.
+
+-> The -m flag allows you to include a short message describing what you changed.
+
+-> Think of this as saving your work with a label.
+
+---------------------------------------------------------------------------------------
+git push
+
+👉 git push origin (main or your branch name)
+
+-> This sends your committed changes to the remote repository on GitHub.
+
+-> origin is the default name for the remote.
+
+-> main is the branch name (replace with master or other branch if needed).
+---------------------------------------------------------------------------------------
+
+ 📌 Full Example Workflow:-
+
+git add .
+git commit -m "Add new feature"
+git push origin main
+
+
+
+
+
+
+
+
+
+
