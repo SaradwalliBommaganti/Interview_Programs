@@ -1,0 +1,70 @@
+📘 Array Notes for Interview Preparation
+
+🔹 What is an Array?
+
+📌 An array is a collection of similar data types.
+
+📌 It stores multiple values in a single variable.
+
+📌 Arrays are homogeneous (all elements have the same type).
+
+📌 Indexing starts from 0.
+
+📌 Useful when working with a fixed number of elements.
+---------------------------------------------------------------------------------------
+
+🔹 Key Features of Arrays
+
+📌 Fixed Size – Size must be defined when creating the array.
+
+📌 Indexed Access – Each element is accessed using an index.
+
+📌 Contiguous Memory – Elements are stored in continuous memory locations.
+
+📌 Fast Retrieval – Accessing by index is fast (O(1) time).
+
+📌 Costly Insertion/Deletion – Requires shifting elements.
+------------------------------------------------------------------------------------------------
+
+🔹 Types of Arrays
+
+🧭 Based on Dimensions:
+
+✅ 1D Array (One-Dimensional) – Linear array.
+
+➤ Example: int[] arr = {10, 20, 30};
+
+✅ 2D Array (Two-Dimensional) – Like a matrix (rows × columns).
+
+➤ Example: int[][] matrix = {{1, 2}, {3, 4}};
+---------------------------------------------------------------------------------------------
+
+🧭 Based on Data Type:
+
+✅ Primitive Array – Arrays of int, float, char, etc.
+
+✅ Non-Primitive Array – Arrays of objects like String, custom class.
+
+➤ Example: String[] names = {"Ram", "Shyam"};
+----------------------------------------------------------------------------------------------
+
+🔹 Advantages of Arrays
+
+⚡ Easy to use and understand.
+
+⚡ Fast access to elements using index.
+
+⚡ Useful for searching and sorting data.
+
+⚡ Efficient for storing a fixed number of items.
+
+🔹 Disadvantages of Arrays
+
+❌ Size is fixed and cannot be resized.
+
+❌ No built-in methods to add or remove elements.
+
+❌ Insertion/deletion is not efficient (manual shifting needed).
+
+❌ Wastes memory if not fully used.
+
