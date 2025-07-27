@@ -1,5 +1,5 @@
 package com.array.programs;
-
+//add comment here 
 import java.util.Scanner;
 
 public class AverageElementsArray {
